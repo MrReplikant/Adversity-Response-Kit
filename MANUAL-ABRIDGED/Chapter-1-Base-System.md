@@ -25,5 +25,5 @@ Warning: Do NOT make separate paritions for any directory, no matter how temptin
 
 As installation methods may vary widely, depending on what the user has access to, there is no one-size-fits-all approach. But, regardless of method, the follwing requirements must be met: 
 
-1. All files MUST be on one partition. 
+1. All files MUST be on one partition/drive. 
 2. 
