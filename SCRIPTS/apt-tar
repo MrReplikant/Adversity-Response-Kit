@@ -1,0 +1,107 @@
+#!/bin/bash
+: '
+This script downloads all recursive packages to the specified directory
+Then creates a package listing to be used by apt sources
+Finaly compresses the entire directory into a pkg_index to be moved to another system
+'
+
+# Variables
+DIR=$PWD/debs-$(dpkg --print-architecture)
+package_list=($*)
+DARCH=$(dpkg --print-architecture)
+
+isRoot() {
+	if [ "$EUID" -ne 0 ]; then
+		echo "Must be run as root/with sudo"
+		exit 1
+	fi
+}
+
+
+install_script_dependencies(){
+	apt update 
+	apt install -y curl dpkg-dev
+}
+
+
+find_dependencies(){
+	dependency_list=($(
+		apt-cache depends --recurse \
+    	    --no-recommends --no-suggests \
+             --no-conflicts --no-breaks \
+      	   --no-replaces --no-enhances "${package_list[@]}"  \
+			|  grep "^\w" | sort -u ))
+}
+
+copypackagestofile(){
+echo  "${package_list[@]}" > packages.txt | cp packages.txt /ark/apt-tar/packages
+}
+
+make_directories(){
+        mkdir $DIR/dists
+        mkdir $DIR/dists/local
+        mkdir $DIR/dists/local/main
+        mkdir $DIR/dists/local/main/binary-$DARCH
+}
+
+download_dependencies(){
+	counter=1
+	total="${#dependency_list[@]}"
+	
+	for pkg in "${dependency_list[@]}"; do
+		echo -e "[$counter/$total] $pkg"
+    	apt-get download $pkg
+		((counter++))
+	done
+
+}
+
+
+create_pkg_index(){
+	pkg_index=Packages.gz
+	dpkg-scanpackages -a $DARCH . | gzip -c > $DIR/dists/local/main/binary-$DARCH/$pkg_index
+        dpkg-scanpackages -a $DARCH . > Packages
+        cp Packages $DIR/dists/local/main/binary-$DARCH/Packages
+}
+
+copy_dpkg_script(){
+        cp /ark/apt-tar/aptscripts/installdebs.sh $PWD/installdebs.sh
+        cp /ark/apt-tar/packages/packages.txt $PWD/packages.txt
+}
+
+
+tarball_all_pkgs(){
+	basename=${DIR##*/}
+	tarball=${basename}.tar.gz
+	cd ..
+	tar -czvf $tarball $basename
+}
+
+
+verify_things(){
+	echo -e "\n${DIR} size: "
+	du -sh $DIR
+	echo -e "\n$tarball size: "
+	du -sh $tarball
+        rm -rf ./debs
+        rm packages.txt       
+        rm /ark/apt-tar/packages/packages.txt
+}
+
+
+main(){
+    isRoot
+    install_script_dependencies
+    find_dependencies
+    copypackagestofile
+    [[ -d $DIR ]] || mkdir $DIR
+    chown _apt $DIR
+    make_directories
+    cd $DIR
+    download_dependencies
+    create_pkg_index
+    copy_dpkg_script
+    tarball_all_pkgs
+    verify_things
+}
+main
