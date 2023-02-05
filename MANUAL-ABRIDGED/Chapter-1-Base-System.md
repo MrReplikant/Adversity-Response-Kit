@@ -20,7 +20,7 @@ functionality as well. The reason being, is that the ARK System is designed to b
 
 Warning: Do NOT make separate paritions for any directory, no matter how tempting. All files must be on the primary partition. 
 
-Setting 1: Setting up your system
+### Step 1: Setting up your system
 
 As installation methods may vary widely, depending on what the user has access to, there is no one-size-fits-all approach. But, regardless of method, the follwing requirements must be met: 
 
