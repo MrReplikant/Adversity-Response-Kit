@@ -17,6 +17,7 @@ functionality as well. The reason being, is that the ARK System is designed to b
 1. some form of installation media for your chosen distribution, or other alternative means of installation. This manual assumes an ISO was used. It is highly advised to go with images that include the non-free firmware. This is because in this situation, functionality of hardware is an absolute must. 
 2. Internet Connection, OR an offline copy of the repository of the chosen host architecture. 
 3. At minimum, 500GB of Storage Space available to your machine. It does not necessarily have to be all one drive, Logical Volumes meeting this requirement are acceptable, but let it be known, this carries risk with it. 
+4. A local copy of this repository.
 
 Warning: Do NOT make separate paritions for any directory, no matter how tempting. All files must be on the primary partition. 
 
