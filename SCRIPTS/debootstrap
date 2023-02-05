@@ -1,8 +1,0 @@
-#!/bin/bash
-
-ARCHES=$(cat /var/lib/dpkg)
-
-for var in $ARCHES
-do
-  echo "$var"
-done 
