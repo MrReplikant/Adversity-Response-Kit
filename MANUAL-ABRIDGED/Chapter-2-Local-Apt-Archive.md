@@ -6,4 +6,21 @@ One of the greatest strengths of the ARK System is it's local package repository
 
 If you already have a local copy of your distribution's mirror, copy it to your machine now. If not, or even if you do, still follow along. 
 
-cd back into the SCRIPTS directory, and run "ls". You will notice a script called "build-apt-mirror.sh".   
+cd back into the SCRIPTS directory, and run "ls". You will notice a script called "build-apt-archive.sh". Take note of it, but do not run it yet. Instead, run the folowing command: 
+
+sudo nano /etc/apt/mirror.list
+
+This will take you to the apt-mirror configuration file. You will see a long list of mirrors. For the purposes of this manual, we will use Devuan as an example, but the same applies to the other suitable distributions as well. By the time you have adjusted your mirrors list, it should look something like this: 
+
+deb-src http://pkgmaster.devuan.org/merged daedalus main contrib non-free non-free-firmware
+
+deb http://pkgmaster.devuan.org/merged daedalus main contrib non-free non-free-firmware
+
+deb-i386 http://pkgmaster.devuan.org/merged daedalus main contrib non-free non-free-firmware
+
+deb-all http://pkgmaster.devuan.org/merged daedalus main contrib non-free non-free-firmware
+
+deb-arm64 https://pkgmaster.devuan.org/merged daedalus main contrib non-free non-free-firmware
+
+Note: From Debian 12 Onward, or Devuan Daedalus (5) Onward, non-free will be split into non-free and non-free-firmware. Mirror them both, to be safe. 
+
