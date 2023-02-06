@@ -4,6 +4,8 @@ One of the greatest strengths of the ARK System is it's local package repository
 
 ## Step 1: Setting up your Local Mirror
 
+Note: It is also HIGHLY advised that you have offline copies of the installation media for each architecture you intend to mirror. Server ISO's at the very minimum!
+
 If you already have a local copy of your distribution's mirror, copy it to your machine now. If not, or even if you do, still follow along. 
 
 **Warning: This will take a LOT of bandwidth. If you have more advance time to prepare, perhaps consider merely mirroring certain portions at a time, and adding to it over time, if such would make it easier to eventually get the full mirror.** 
@@ -54,3 +56,28 @@ Once done, save your sources.list file, and move to step 2.
 
 
 ### Step 2: installing Apt-Tar
+Once you have completed step 1, cd into the SCRIPTS directory, if you left it for any reason. run "ls" again. you will see a script called "deboostrap.sh". Take note of it, but do not run it yet. This is not the debootstrap package itself, do not be fooled. This script will create Bedrock Linux Stratums for each of your mirrored architectrures. First, run the following command: 
+
+sudo dpkg --add-architecture (insert one of the architectures you intend to mirror here)
+
+Note: repeat this for each architecture you have mirrored, except your host architecture. 
+
+Then: 
+
+sudo apt update
+
+If all has gone well, the update should be successful. NOW you can run debootstrap.sh , like so:
+
+sudo chmod +x debootstrap.sh
+sudo ./deboostrap.sh
+
+This will create all of the stratums, and install the Apt-Tar tool on all of the stratums, including your Master Stratum. When it installs for the Master Stratum, BASH may complain that certain directories already exist. It is safe to ignore these errors. 
+
+**NOTE: Do NOT make your Master Stratum "Multi-Arch", you WILL break the system! If you need alternate architecture programs, this is what your other stratums are for!**
+
+If all goes well, the Apt-Tar tool should be installed. If so, you may now move on to Step 3. 
+
+### Step 3: How to use Apt-Tar
+
+
+ 
