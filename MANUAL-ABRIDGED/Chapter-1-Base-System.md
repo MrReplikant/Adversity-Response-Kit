@@ -76,6 +76,7 @@ Note: The inclusion of "core" will label your base system, known hereon as your 
 
 On boot, you should see a list of init systems, one of them should be labelled "core". Select this one, and boot. 
 
+# **CONGRATULATIONS!** If you made it this far, you have successfully completed chapter 1
 
 
 
