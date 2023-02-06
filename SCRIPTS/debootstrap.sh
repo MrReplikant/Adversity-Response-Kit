@@ -1,6 +1,12 @@
 #!/bin/bash
 
 ARCHES=$(cat /var/lib/dpkg/arch)
+isRoot() {
+        if [ "$EUID" -ne 0 ]; then
+                echo "Must be run as root/with sudo"
+                exit 1
+        fi
+}
 
 
 setup_chroots(){
@@ -29,6 +35,7 @@ done
 }
 
 main(){
+isRoot
 setup_chroots
 import_stratums
 clean_up_dpkg
