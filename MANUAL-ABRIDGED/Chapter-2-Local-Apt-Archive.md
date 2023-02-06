@@ -77,7 +77,7 @@ This will create all of the stratums, and install the Apt-Tar tool on all of the
 
 If all goes well, the Apt-Tar tool should be installed. If so, you may now move on to Step 3. 
 
-### Step 3: How to use Apt-Tar
+## Step 3: How to use Apt-Tar
 
 
  
