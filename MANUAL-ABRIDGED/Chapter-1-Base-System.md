@@ -61,7 +61,7 @@ Do you see all of those scripts? You only need ONE.
 
 Note: x86_64 is also known as amd64
 
-Determine which script belonmgs to your architecture, and run it like so: 
+Determine which script belongs to your architecture, and run it like so: 
 
 
 
