@@ -6,6 +6,8 @@ One of the greatest strengths of the ARK System is it's local package repository
 
 If you already have a local copy of your distribution's mirror, copy it to your machine now. If not, or even if you do, still follow along. 
 
+**Warning: This will take a LOT of bandwidth. If you have more advance time to prepare, perhaps consider merely mirroring certain portions at a time, and adding to it over time, if such would make it easier to eventually get the full mirror.** 
+
 cd back into the SCRIPTS directory, and run "ls". You will notice a script called "build-apt-archive.sh". Take note of it, but do not run it yet. Instead, run the folowing command: 
 
 sudo nano /etc/apt/mirror.list
