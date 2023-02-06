@@ -41,9 +41,11 @@ By now you have noticed the "SCRIPTS" folder, please "cd" into it via the termin
 
 First, execute the pre-dependencies installer, like so:
 
+
 sudo chmod +x install-predeps.sh
 
 sudo ./install-predeps.sh
+
 
 assuming you took the time to ensure your sources list was working as I had advised, this should install everything you need.
 
@@ -62,9 +64,11 @@ Note: x86_64 is also known as amd64
 Determine which script belonmgs to your architecture, and run it like so: 
 
 
+
 sudo chmod +x (your chosen script here)
 
 sudo ./(your chosen script here) --hijack core
+
 
 follow every prompt, and then reboot. 
 
