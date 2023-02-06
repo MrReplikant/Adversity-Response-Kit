@@ -45,7 +45,7 @@ Once you have done so, save your configuration in nano, and then run the followi
 sudo chmod +x build-apt-archive.sh
 sudo ./build-apt-archive.sh
 
-Once your mirror is complete, open your /etc/apt/sources.list file, and replace your original source with your local mirror. An example entry will look like this: 
+Once your mirror is complete, open your /etc/apt/sources.list file, and replace your original source with your local mirror. An example entry is provided here: 
 
 
 deb file:/ark/mirror/mirror/pkgmaster.devaun.org/merged daedalus main contrib non-free non-free firmware
