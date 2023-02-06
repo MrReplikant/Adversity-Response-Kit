@@ -55,7 +55,7 @@ WARNING: Make sure this entry is the VERY FIRST entry in your sources.list file
 Once done, save your sources.list file, and move to step 2. 
 
 
-### Step 2: installing Apt-Tar
+## Step 2: installing Apt-Tar
 Once you have completed step 1, cd into the SCRIPTS directory, if you left it for any reason. run "ls" again. you will see a script called "deboostrap.sh". Take note of it, but do not run it yet. This is not the debootstrap package itself, do not be fooled. This script will create Bedrock Linux Stratums for each of your mirrored architectrures. First, run the following command: 
 
 sudo dpkg --add-architecture (insert one of the architectures you intend to mirror here)
