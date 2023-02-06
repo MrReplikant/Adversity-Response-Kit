@@ -23,6 +23,7 @@ for var in $ARCHES
 do
   brl import $var /ark/chroots/$var
   strat -r $var ./install_apt_tar.sh 
+  ./install-apt-tar.sh
 done
 }
 
