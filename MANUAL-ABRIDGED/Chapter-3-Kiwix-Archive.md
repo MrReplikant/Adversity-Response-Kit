@@ -8,5 +8,6 @@ I HIGHLY Recommend you mirror the following:
 2. Wikihow (This one is ~50GB)
 3. Wikitionary
 4. WikiMed
+5. Project Gutenberg Library
 
 
