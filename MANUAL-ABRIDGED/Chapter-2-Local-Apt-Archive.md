@@ -78,6 +78,23 @@ This will create all of the stratums, and install the Apt-Tar tool on all of the
 If all goes well, the Apt-Tar tool should be installed. If so, you may now move on to Step 3. 
 
 ## Step 3: How to use Apt-Tar
+Assuming Step 2 was completed successfully, the following shall describe how to use Apt-Tar. 
+
+When using Apt-Tar, you run it like so: 
+
+sudo strat -r (strat name) apt-tar (package name)
+
+This will pull, recursively, all dependencies for the package, and put them into a tar file named "debs-($ARCH).tar.gz", which contains everything you need to install the package on the intended target system.
+
+NOTE: If using the host architecture, the stratum name should be "core". Any other architectures, use the architecture name ie: "amd64" , "i386" , and so on. 
+
+Once the tar archive has been transferred to your intended machine, extract it, and cd into the "debs-($ARCH)" directory. Then, run the following command:
+
+sudo chmod +x installdebs.sh
+
+sudo ./installdebs.sh
+
+If all has succeeded, you should now have the packages installed on the target system. 
 
 
- 
+# **Congratulations! You have completed Chapter 2. You may now move on to Chapter 3!**
