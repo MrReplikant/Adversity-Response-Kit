@@ -30,7 +30,7 @@ As installation methods may vary widely, depending on what the user has access t
 3. Must be a CLEAN installation, this cannot and SHOULD NOT be atop an existing one! 
 4. Make sure you have at least ONE working text editor
 
-Note: It is advisible to do an "apt update" and ensure you are able to reach the core repository of whichever of the forememtioned Debian Systems you have chosen, or are able to use the offline mirror. 
+Note: It is advisible to do an "apt update" and ensure you are able to reach the core repository of whichever of the forememtioned Debian Systems you have chosen, or are able to use the offline mirror. **Also make sure this is the FIRST entry on your sources.list. It will be imperative in Chapter 2**
 
 ### Step 2: Setting up the base system
 If you have made it this far, good. Now, if you have not already, transfer your copy of this repository onto the target machine, by whatever means necessary, and then return to this manual. Then reopen to this chapter with whatever software you have to. 
