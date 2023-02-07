@@ -9,6 +9,7 @@ Kali Linux
 
 ParrotOS 
 
+NOTE: It is HIGHLY recommended that ARK System builders use a release on-par with Debian Bullseye (Debian 11) or later. 
 
 Ideally, users will want to use Debian or Devuan, as their architecture support is the broadest, but Kali and Parrot can provide acceptable levels of 
 functionality as well. The reason being, is that the ARK System is designed to be ableto develop for, tinker with, and distribute packages for machines of other architectures besides the host's own Architecture.
