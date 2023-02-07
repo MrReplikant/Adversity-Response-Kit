@@ -10,55 +10,55 @@ NOTE: make sure to not name these with names identical to the ones created earli
 ## Section 2: The Debian Blends
 One of Debian's shining strengths is her Pure Blends. These blends are installable from the repository, and there are blends for a myriad of vital use cases for (re)building a nation's infrastructure. The Blends, and their Descriptions, are Below: 
 
-**Debian Astro: 
+**Debian Astro**: 
 
 "The goal of Debian Astro is to develop a Debian based operating system that fits the requirements of both professional and hobby astronomers. It integrates a large number of software packages covering telescope control, data reduction, presentation and other fields."
 
-**DebiChem: 
+**DebiChem**: 
 
 "The goal of DebiChem is to make Debian a good platform for chemists in their day-to-day work."
 
-**Debian Games: 
+**Debian Games**: 
 
 "The goal of Debian Games is to provide games in Debian from arcade and adventure to simulation and strategy"
 
-**Debian EDU: 
+**Debian EDU**: 
 
 "The goal of Debian Edu is to provide a Debian OS system suitable for educational use and in schools." 
 
-**Debian GIS: 
+**Debian GIS**: 
 
 "The goal of Debian GIS is to develop Debian into the best distribution for Geographical Information System applications and users."
 
-**Debian Junior: 
+**Debian Junior**: 
 
 "The goal of Debian Junior is to make Debian an OS that children will enjoy using."
 
-**Debian Med: 
+**Debian Med**: 
 
 "The goal of Debian Med is a complete free and open system for all tasks in medical care and research. To achieve this goal Debian Med integrates related free and open source software for medical imaging, bioinformatics, clinic IT infrastructure, and others within the Debian OS."
 
-**Debian MultiMedia: 
+**Debian MultiMedia**: 
 
 "The goal of Debian Multimedia is to make Debian a good platform for audio and multimedia work."
 
-**Debian Science: 
+**Debian Science**: 
 
 " The goal of Debian Science is to provide a better experience when using Debian to researchers and scientists."
 
-**FreedomBox: 
+**FreedomBox**: 
 
 "The goal of FreedomBox is to develop, design and promote personal servers running free software for private, personal communications. Applications include blogs, wikis, websites, social networks, email, web proxy and a Tor relay on a device that can replace a wireless router so that data stays with the users."
 
-**Debian HamRadio:
+**Debian HamRadio**:
 
 "The goal of Debian Hamradio is to support the needs of radio amateurs in Debian by providing logging, data mode and packet mode applications and more."
 
-**DebianParl: 
+**DebianParl**: 
 
 "The goal of DebianParl is to provide applications to support the needs of parliamentarians, politicians and their staffers all around the world."
 
-**Debian Design: 
+**Debian Design**: 
 
 "The goal of Debian Design is to provide applications for designers. This includes graphic design, web design and multimedia design."
 
