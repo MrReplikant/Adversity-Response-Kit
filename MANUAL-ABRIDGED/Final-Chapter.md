@@ -118,4 +118,4 @@ machine like the ARK System would have made an incredible difference. You, as th
 to the future of your people. You carry a responsibility to protect their collective knowledge at all costs, and to help them (re)build their society when 
 the time is right. And remember, the ARK System is founded upon the Three R's: Rise, Respond, Rebuild. 
                                  
-**Good luck, and may your ARK Serve you and your people well** 
+**Good luck, and may your ARK Serve you well** 
