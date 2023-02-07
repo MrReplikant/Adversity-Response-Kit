@@ -1,6 +1,9 @@
 # Adversity Reponse Kit 
 
 ## Introduction
+
+Rise, Respond, Rebuild. The most important words you will ever hear in your life. 
+
 I will not mince words. if you are reading this, and the adverse event you are anticipating has not happened yet, or has not yet caused internet infrastructure to fail, Welcome. If you are reading this during, or after the fact, likely having found it on a machine, it may already be too late. Regardless, this repository is intended to serve its purpose: create a Debian (or Suitable Derivative)-Based system, hybridized with the Bedrock Linux userland, that will allow knowledge and digital infrastraucutre to persist after an adverse event. If the event has not happened yet, then perhaps you can take the time to read the foreword. If it is happening or has happened already, don't waste your time, and stick to the manual, found in the MANUAL-ABRIDGED folder. Either way, good luck. Our future is counting on you. 
 
 
