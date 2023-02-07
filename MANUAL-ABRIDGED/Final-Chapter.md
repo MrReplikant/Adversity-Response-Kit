@@ -111,7 +111,7 @@ These blends, as you can see, are numerous and wide in scope. There is very few 
 
 ## Final Message...
     
-        For as long as humans have existed, adversity has been a constant companion. Whether it be authoritarian regimes, natural distasters, economic 
+For as long as humans have existed, adversity has been a constant companion. Whether it be authoritarian regimes, natural distasters, economic 
 collapse, wars, or whatever else have us, adversity has been present. From the destruction of Alexandria's library, to the Nazi's burning of books, to more 
 modern adversities such as cyberattacks, terrorism on infrastructure, or severe economic hardship, there have been many examples throughout history where a 
 machine like the ARK System would have made an incredible difference. You, as the owner of an ARK System, carry a responsibility to your fellow humans, and 
