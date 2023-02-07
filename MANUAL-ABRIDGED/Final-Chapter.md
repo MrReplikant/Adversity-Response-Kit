@@ -100,7 +100,7 @@ NOTE: For Debian Science, You often only need SOME of these. It is up to the sys
 
 NOTE: For DebianParl, You often only need ONE of these. It is up to the system administrator to decide which is needed. 
 
-**Debian Design**: design-desktop design-desktop-web design-desktop-animation design-desktop-graphics design-desktop-strict 
+[**Debian Design**]: design-desktop design-desktop-web design-desktop-animation design-desktop-graphics design-desktop-strict 
 
 NOTE: For Debian Design, You often only need ONE of these. It is up to the system administrator to decide which is needed. 
 
