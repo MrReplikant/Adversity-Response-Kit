@@ -75,7 +75,7 @@ Debian Games: games-finest games-adventure games-arcade games-board games-c++-de
 
 Debian-Edu: debian-edu-config education-desktop-$DE
 
-Note: $DE is substitiuted for mate, cinnamon, kde, gnome, lxde, or xfce
+NOTE: $DE is substitiuted for mate, cinnamon, kde, gnome, lxde, or xfce. Chose only ONE. 
 
 
 Debian GIS: gis-all gis-data gis-gps gis-remotesensing gis-statistics gis-web
@@ -84,6 +84,22 @@ Debian Junior: junior-art junior-config junior-doc junior-education junior-games
 
 Debian Med: med-all med-cloud med-data med-dental med-epi med-his med-imaging med-imaging-dev med-laboratory med-oncology med-pharmacy med-physics med-practice med-physiology med-research med-tools med-typesetting 
 
+NOTE: For Debian Med, You often only need SOME of these. It is up to the system administrator to decide which is needed.
+
 Debian MultiMedia: multimedia-all multimedia-devel 
 
-Debian Science: 
+Debian Science: science-all science-biology science-chemistry science-economics science-electrophysiology science-engineering science-engineering-dev science-financial science-geography science-geometry science-highenergy-physics science-highenergy-physics-dev science-linguistics science-logic science-mathematics science-mathematics-dev science-meteorology science-meteorology-dev science-nanoscale-physics science-nanoscale-physics-dev science-neuroscience-cognitive science-neuroscience-modeling science-physics science-physics-dev science-psychophysics science-robotics science-robotics-dev 
+
+NOTE: For Debian Science, You often only need SOME of these. It is up to the system administrator to decide which is needed.
+
+Freedombox: freedombox freedombox-doc-en freedombox-doc-es freedombox-setup
+
+Debian HamRadio: hamradio-all 
+
+DebianParl: parl-desktop parl-desktop-eu parl-desktop-strict parl-desktop-world
+
+NOTE: For DebianParl, You often only need ONE of these. It is up to the system administrator to decide which is needed. 
+
+Debian Design: design-desktop design-desktop-web design-desktop-animation design-desktop-graphics design-desktop-strict 
+
+NOTE: For Debian Design, You often only need ONE of these. It is up to the system administrator to decide which is needed. 
