@@ -11,6 +11,10 @@ I HIGHLY Recommend you mirror the following:
 5. Project Gutenberg Library
 6. Wikispecies
 7. Appropedia
+8. Lunix and Unix Stack Exchange
+9. AskUbuntu
+10. The Arch Linux Wiki
+11. The Alpine Linux Wiki
 
 To install Kiwix, Marble (which will be discussed in the next section), and other tools to be discussed in later chapters, run the following command: 
 
