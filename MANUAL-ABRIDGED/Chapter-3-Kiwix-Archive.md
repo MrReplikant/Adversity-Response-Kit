@@ -36,6 +36,6 @@ unzip -d ~/.local/share/marble/maps ortelius1570-marblemap.zip
 FINAL NOTE: The KDE Marble Handbook is included in this kit, as the handbook inside Marble itself requires internet connection. 
 
 
-# **Congrats! You have completed Chapter 3. Move on to the chapter named "Final Chapter", where other important information is found. 
+# **Congrats! You have completed Chapter 3. Move on to the chapter named "Final Chapter", where other important information is found.**
 
 
