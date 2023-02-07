@@ -13,7 +13,7 @@ ParrotOS
 Ideally, users will want to use Debian or Devuan, as their architecture support is the broadest, but Kali and Parrot can provide acceptable levels of 
 functionality as well. The reason being, is that the ARK System is designed to be ableto develop for, tinker with, and distribute packages for machines of other architectures besides the host's own Architecture.
 
-This kit is installable on the following Architectures: 
+This kit is installable on the following Architectures (Though support by the individual distributions will vary): 
 amd64
 arm64
 i386
