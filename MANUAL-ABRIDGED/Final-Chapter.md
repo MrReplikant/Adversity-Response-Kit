@@ -96,7 +96,7 @@ NOTE: For Debian Science, You often only need SOME of these. It is up to the sys
 
 **Debian HamRadio**: hamradio-all 
 
-**DebianParl**: parl-desktop parl-desktop-eu parl-desktop-strict parl-desktop-world
+__**DebianParl**__: parl-desktop parl-desktop-eu parl-desktop-strict parl-desktop-world
 
 NOTE: For DebianParl, You often only need ONE of these. It is up to the system administrator to decide which is needed. 
 
