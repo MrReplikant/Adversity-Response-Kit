@@ -67,6 +67,8 @@ One of Debian's shining strengths is her Pure Blends. These blends are installab
 ### How to install each blend
 The following list will provide the names of the packages needed to install the aforementined blends. 
 
+NOTE: Do **NOT** install these directly onto an ARK system, unless there is an absolute dire need for them! These are meant for the systems the ARK is used to maintain!
+
 **Debian Astro**: astro-all astr-catalogs astro-tcltk
 
 **DebiChem**:  debichem-visualisation debichem-view-edit-2d debichem-semiempirical debichem-periodic-abinitio debichem-molecular-modelling debichem-molecular-dynamics debichem-molecular-abinitio debichem-input-generation-output-processing debichem-development debichem-crystallography debichem-cheminformatics debichem-analytical-biochemistry
@@ -105,3 +107,9 @@ NOTE: For DebianParl, You often only need ONE of these. It is up to the system a
 NOTE: For Debian Design, You often only need ONE of these. It is up to the system administrator to decide which is needed. 
 
 
+These blends, as you can see, are numerous and wide in scope. There is very few use cases for the modern age that are not in some way covered by these blends. They, in the scenarios for which the ARK is intended, are the lifeblood of achieving the intended bottom line of using the ARK system. 
+
+## Final Message...
+    For as long as humans have existed, adversity has been a constant companion. Whether it be authoritarian regimes, natural distasters, economic collapse, wars, or whatever else have us, adversity has been present. From the destruction of Alexandria's library, to the Nazi's burning of books, to more modern adversities such as cyberattacks, terrorism on infrastructure, or severe economic hardship, there have been many examples throughout history where a machine like the ARK System would have made an incredible difference. You, as the owner of an ARK System, carry a responsibility to your fellow humans, and to the future of your people. You carry a resp[onsibility to protect their collective knowledge at all costs, and to help them (re)build their society when the time is right. And remember, the ARK System is founded upon the Three R's: Rise, Respond, Rebuild. 
+                                 
+                                   **Good luck, and may your ARK Serve you and your people well** 
