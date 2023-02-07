@@ -65,3 +65,25 @@ Debian Design:
 
 
 ### How to install each blend
+The following list will provide the names of the packages needed to install the aforementined blends. 
+
+Debian Astro: astro-all astr-catalogs astro-tcltk
+
+DebiChem:  debichem-visualisation debichem-view-edit-2d debichem-semiempirical debichem-periodic-abinitio debichem-molecular-modelling debichem-molecular-dynamics debichem-molecular-abinitio debichem-input-generation-output-processing debichem-development debichem-crystallography debichem-cheminformatics debichem-analytical-biochemistry
+
+Debian Games: games-finest games-adventure games-arcade games-board games-c++-dev games-card games-chess games-console games-content-dev games-education games-emulator games-fps games-java-dev games-minesweeper games-mud games-perl-dev games-platform games-programming games-puzzle games-python3-dev games-racing games-rogue games-rpg games-shootemup games-simulation games-sport games-strategy games-tetris games-toys games-typing
+
+Debian-Edu: debian-edu-config education-desktop-$DE
+
+Note: $DE is substitiuted for mate, cinnamon, kde, gnome, lxde, or xfce
+
+
+Debian GIS: gis-all gis-data gis-gps gis-remotesensing gis-statistics gis-web
+
+Debian Junior: junior-art junior-config junior-doc junior-education junior-games-adventure junior-games-arcade junior-games-card junior-games-gl junior-games-net junior-games-puzzle junior-games-sim junior-games-text junior-internet junior-math junior-programming junior-sound junior-system junior-toys junior-typing junior-video junior-writing 
+
+Debian Med: med-all med-cloud med-data med-dental med-epi med-his med-imaging med-imaging-dev med-laboratory med-oncology med-pharmacy med-physics med-practice med-physiology med-research med-tools med-typesetting 
+
+Debian MultiMedia: multimedia-all multimedia-devel 
+
+Debian Science: 
