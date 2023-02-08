@@ -9,7 +9,7 @@ isRoot() {
 }
 
 install_predeps(){
-apt install curl dpkg-dev usrmerge dkms build-essential apt-mirror deboostrap
+apt install curl dpkg-dev usrmerge dkms build-essential apt-mirror debootstrap
 mkdir /ark
 mkdir /ark/chroots
 }
