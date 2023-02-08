@@ -37,7 +37,7 @@ When you download these maps, they will come as zip files. The recommended way t
 
 unzip -d ~/.local/share/marble/maps ortelius1570-marblemap.zip
 
-FINAL NOTE: The KDE Marble Handbook is included in this kit, as the handbook inside Marble itself requires internet connection. 
+FINAL NOTE: The KDE Marble Handbook can be downloaded here: https://docs.kde.org/trunk5/en/marble/marble/marble.pdf it is **highly** advised that you do so, because the handbook inside the Marble application itself will not work without an internet connection.
 
 
 # **Congrats! You have completed Chapter 3. Move on to the chapter named "Final Chapter", where other important information is found.**
