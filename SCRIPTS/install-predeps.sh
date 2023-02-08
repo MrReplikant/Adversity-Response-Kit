@@ -9,7 +9,7 @@ isRoot() {
 }
 
 install_predeps(){
-apt install curl dpkg-dev usrmerge dkms build-essential apt-mirror debootstrap
+apt install curl dpkg-dev usrmerge dkms build-essential apt-mirror debootstrap qemu-user-static
 mkdir /ark
 mkdir /ark/chroots
 }
