@@ -22,13 +22,13 @@ import_stratums(){
 for var in $ARCHES
 do
   brl import $var /ark/chroots/$var
-  chmod +x install-apt-tar.sh
-  strat $var chmod +x install-apt-tar.sh
-  strat $var chmod +x installdebs.sh 
-  strat $var chmod +x apt-tar
+  chmod +x $SCRIPT_DIR/install-apt-tar.sh
+  strat $var chmod +x $SCRIPT_DIR/install-apt-tar.sh
+  strat $var chmod +x $SCRIPT_DIR/installdebs.sh 
+  strat $var chmod +x $SCRIPT_DIR/apt-tar
   strat -r $var mkdir /ark
-  strat $var ./install-apt-tar.sh 
-  ./install-apt-tar.sh
+  strat $var .$SCRIPT_DIR/install-apt-tar.sh 
+  .$SCRIPT_DIR/install-apt-tar.sh
 done
 }
 
