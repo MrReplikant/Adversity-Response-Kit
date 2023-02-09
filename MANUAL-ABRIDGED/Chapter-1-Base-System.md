@@ -43,7 +43,7 @@ Warning: Do NOT make separate paritions for any directory, no matter how temptin
 As installation methods may vary widely, depending on what the user has access to, there is no one-size-fits-all approach. But, regardless of method, the follwing requirements must be met: 
 
 1. All base system files MUST be on one partition and drive. NO separate /usr, /home, or /etc partitions or drives. The sole exception is in the case of logical volume management, if multiple drives comprise a single logical volume partition in order to meet the storage requirements. We recommend, however, starting on ONE of the drives, and adding the others later on, that way of one drive fails, it doesnt take the whole system with it. 
-2. You MUST install a FULL Desktop Environemt that is reasonably usable to the common person (NOT a Window Manager, not even IceWM or JWM). Gnome, XFCE, or any other Desktop option seen in the distribution installer or in tasksel will suffice. Use "sudo tasksel" to get to this if the system has already been installed
+2. You MUST install a FULL Desktop Environemt that is reasonably usable to the common person (NOT a Window Manager, not even IceWM or JWM). Gnome, XFCE, or any other Desktop option seen in the distribution installer or in tasksel will suffice. Use "sudo tasksel" to get to this if the system has already been installed. Furthermore, you may also install the "phosh-tablet" metapackage, which can be used in the even your chosen device only has a touch screen for interface. It will allow you to use it like a tablet. note, however, that you will still need a keyboard for initial setup.  
 3. Must be a CLEAN installation, this cannot and SHOULD NOT be atop an existing one! 
 4. Make sure you have at least ONE working text editor
 
