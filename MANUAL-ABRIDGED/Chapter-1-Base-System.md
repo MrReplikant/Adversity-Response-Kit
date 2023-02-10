@@ -33,8 +33,11 @@ mips64el
 I should add, if you wish to build a PDF of this manual, run the "install-mm-depends.sh" and "make-manual.sh" scripts, from a terminal, inside the MANUAL-ABRIDGED directory, like so: 
 
 sudo chmod +x install-mm-depends.sh
+
 sudo chmod +x make-manual.sh
+
 sudo ./install-mm-depends.sh
+
 sudo ./make-manual.sh
 
 
