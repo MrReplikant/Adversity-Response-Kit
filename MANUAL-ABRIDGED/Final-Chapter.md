@@ -79,6 +79,8 @@ include blogs, wikis, websites, social networks, email, web proxy and a Tor
 relay on a device that can replace a wireless router so that data stays with 
 the users."
 
+Note: Unavailable in Devuan. Hopefully this will be fixed in the future. 
+
 **Debian HamRadio**:
 
 "The goal of Debian Hamradio is to support the needs of radio amateurs in 
